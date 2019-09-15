@@ -1,0 +1,7 @@
+{
+  "type": "project",
+  "name": "temirkhan/view",
+  "require": {
+    "php": "^7.3"
+  }
+}

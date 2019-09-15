@@ -1,6 +1,11 @@
 {
   "type": "project",
   "name": "temirkhan/view",
+  "autoload": {
+    "psr-4": {
+      "Temirkhan\\View\\": "src/"
+    }
+  },
   "require": {
     "php": "^7.3"
   }

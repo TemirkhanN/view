@@ -26,7 +26,7 @@ class CollectionView extends AbstractAggregateView
 
     public function getView($context)
     {
-        if (!$context instanceof \iterable) {
+        if (!is_iterable($context)) {
             return null;
         }
 
